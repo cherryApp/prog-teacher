@@ -1,0 +1,35 @@
+{
+  "name": "prog-teacher",
+  "version": "0.0.1",
+  "description": "CLI application to learn program",
+  "main": "./bin/index.js",
+  "bin": {
+    "json-socket-server": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherryApp/prog-teacher.git"
+  },
+  "keywords": [
+    "learning",
+    "program",
+    "cli",
+    "standalone"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "cherryApp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cherryApp/prog-teacher/issues"
+  },
+  "homepage": "https://github.com/cherryApp/prog-teacher#readme",
+  "dependencies": {
+    "meow": "^8.1.0"
+  }
+}

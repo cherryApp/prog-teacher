@@ -1,2 +1,2 @@
 # prog-teacher
-CLI program to learn program
+CLI application to learn program
