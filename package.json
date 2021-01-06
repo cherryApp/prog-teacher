@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/cherryApp/prog-teacher#readme",
   "dependencies": {
-    "meow": "^8.1.0"
+    "meow": "^8.1.0",
+    "open": "^7.3.0"
   }
 }
