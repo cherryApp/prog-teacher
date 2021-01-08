@@ -3,18 +3,17 @@
 // Get packages.
 const open = require('open');
 const cli = require('../lib/cli');
+const App = require('../lib/app');
 
 // Get cli parameters.
-const practice = cli.input[0];
-const directory = cli.flags.directory;
-
-// Open a new browser window.
-const startApp = async () => {
-    await open('https://nettuts.hu', {wait: true});
-    return 'opened';
-};
-
-startApp().then(
-    res => console.log,
-    err => console.error
-);
+( async () => {
+    const practice = cli.input[0];
+    const directory = cli.flags.directory;
+    let app = null;
+    
+    if (!practice || !directory) {
+        console.log(cli.help);
+    } else {
+        app = await App.init(practice, directory);
+    }
+})();
