@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 // Get packages.
-const open = require('open');
 const cli = require('../lib/cli');
 const App = require('../lib/app');
 
