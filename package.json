@@ -1,6 +1,6 @@
 {
   "name": "prog-teacher",
-  "version": "0.0.51",
+  "version": "0.0.55",
   "description": "CLI application to learn program",
   "main": "./bin/index.js",
   "bin": {
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/cherryApp/prog-teacher#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "cli-spinner": "^0.2.10",
     "meow": "^8.1.0",
     "open": "^7.3.0",
     "unzip": "^0.1.11"
