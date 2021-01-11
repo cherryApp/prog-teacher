@@ -1,6 +1,6 @@
 {
   "name": "prog-teacher",
-  "version": "0.0.58",
+  "version": "0.0.59",
   "description": "CLI application to learn program",
   "main": "./bin/index.js",
   "bin": {
@@ -33,7 +33,7 @@
     "cli-spinner": "^0.2.10",
     "fs-extra": "^9.0.1",
     "graceful-fs": "^4.2.4",
-    "meow": "^8.1.0",
+    "meow": "^8.1.2",
     "unzip": "^0.1.11"
   }
 }
