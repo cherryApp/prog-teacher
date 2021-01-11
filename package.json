@@ -1,6 +1,6 @@
 {
   "name": "prog-teacher",
-  "version": "0.0.55",
+  "version": "0.0.56",
   "description": "CLI application to learn program",
   "main": "./bin/index.js",
   "bin": {
